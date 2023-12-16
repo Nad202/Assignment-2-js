@@ -26,18 +26,18 @@ h1 {
 }
 
 button {
-    padding: 0.8em 1.8em;
+    padding: 0.4em 1em;
     border: 2px solid #776060;
     position: relative;
     overflow: hidden;
     background-color: transparent;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 8px;
     transition: .3s;
     z-index: 1;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: #d7a0a0;
    }
@@ -72,6 +72,24 @@ p{
 #quote, h4{
     color: #b38383;;
     font-size: 30px;
+}
+
+@media screen and (max-width:992px) {
+    section{
+        width:90%;
+     
+
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    #quote, h4{
+        font-size: 14px;
+    }
+
 }
 
 
